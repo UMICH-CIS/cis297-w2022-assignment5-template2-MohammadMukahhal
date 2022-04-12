@@ -61,6 +61,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuadraticEquation1.cs" />
     <EmbeddedResource Include="CalculatorGUIForm.resx">
       <DependentUpon>CalculatorGUIForm.cs</DependentUpon>
       <SubType>Designer</SubType>

@@ -15,7 +15,16 @@ namespace CalculatorGUI
       {
          Application.EnableVisualStyles();
          Application.SetCompatibleTextRenderingDefault( false );
-         Application.Run( new CalculatorGUIForm() );
+            try
+            {
+                Application.Run(new CalculatorGUIForm());
+            }
+            catch(Exception e)
+            {
+                string message = "Please make sure to enter correct data, if more than one number is to be entered THEN PLACE A SPACE IN BETWEEN EACH NUMBER! Example: 21 2";
+                MessageBox.Show(message);
+                Application.Run(new CalculatorGUIForm());
+            }
       }
    }
 }

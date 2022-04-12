@@ -28,242 +28,206 @@
       /// </summary>
       private void InitializeComponent()
       {
-         this.button13 = new System.Windows.Forms.Button();
-         this.button14 = new System.Windows.Forms.Button();
-         this.button15 = new System.Windows.Forms.Button();
-         this.button16 = new System.Windows.Forms.Button();
-         this.button9 = new System.Windows.Forms.Button();
-         this.button10 = new System.Windows.Forms.Button();
-         this.button11 = new System.Windows.Forms.Button();
-         this.button12 = new System.Windows.Forms.Button();
-         this.button5 = new System.Windows.Forms.Button();
-         this.button6 = new System.Windows.Forms.Button();
-         this.button7 = new System.Windows.Forms.Button();
-         this.button8 = new System.Windows.Forms.Button();
-         this.button4 = new System.Windows.Forms.Button();
-         this.button3 = new System.Windows.Forms.Button();
-         this.button2 = new System.Windows.Forms.Button();
-         this.button1 = new System.Windows.Forms.Button();
-         this.textBox1 = new System.Windows.Forms.TextBox();
-         this.SuspendLayout();
-         // 
-         // button13
-         // 
-         this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button13.Location = new System.Drawing.Point( 189, 180 );
-         this.button13.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button13.Name = "button13";
-         this.button13.Size = new System.Drawing.Size( 63, 50 );
-         this.button13.TabIndex = 33;
-         this.button13.Text = "*";
-         // 
-         // button14
-         // 
-         this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button14.Location = new System.Drawing.Point( 126, 180 );
-         this.button14.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button14.Name = "button14";
-         this.button14.Size = new System.Drawing.Size( 63, 50 );
-         this.button14.TabIndex = 32;
-         this.button14.Text = "=";
-         // 
-         // button15
-         // 
-         this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button15.Location = new System.Drawing.Point( 63, 180 );
-         this.button15.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button15.Name = "button15";
-         this.button15.Size = new System.Drawing.Size( 63, 50 );
-         this.button15.TabIndex = 31;
-         this.button15.Text = ".";
-         // 
-         // button16
-         // 
-         this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button16.Location = new System.Drawing.Point( 0, 180 );
-         this.button16.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button16.Name = "button16";
-         this.button16.Size = new System.Drawing.Size( 63, 50 );
-         this.button16.TabIndex = 30;
-         this.button16.Text = "0";
-         // 
-         // button9
-         // 
-         this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button9.Location = new System.Drawing.Point( 189, 130 );
-         this.button9.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button9.Name = "button9";
-         this.button9.Size = new System.Drawing.Size( 63, 50 );
-         this.button9.TabIndex = 29;
-         this.button9.Text = "/";
-         // 
-         // button10
-         // 
-         this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button10.Location = new System.Drawing.Point( 126, 130 );
-         this.button10.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button10.Name = "button10";
-         this.button10.Size = new System.Drawing.Size( 63, 50 );
-         this.button10.TabIndex = 28;
-         this.button10.Text = "3";
-         // 
-         // button11
-         // 
-         this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button11.Location = new System.Drawing.Point( 63, 130 );
-         this.button11.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button11.Name = "button11";
-         this.button11.Size = new System.Drawing.Size( 63, 50 );
-         this.button11.TabIndex = 27;
-         this.button11.Text = "2";
-         // 
-         // button12
-         // 
-         this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button12.Location = new System.Drawing.Point( 0, 130 );
-         this.button12.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button12.Name = "button12";
-         this.button12.Size = new System.Drawing.Size( 63, 50 );
-         this.button12.TabIndex = 26;
-         this.button12.Text = "1";
-         // 
-         // button5
-         // 
-         this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button5.Location = new System.Drawing.Point( 189, 80 );
-         this.button5.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button5.Name = "button5";
-         this.button5.Size = new System.Drawing.Size( 63, 50 );
-         this.button5.TabIndex = 25;
-         this.button5.Text = "*";
-         // 
-         // button6
-         // 
-         this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button6.Location = new System.Drawing.Point( 126, 80 );
-         this.button6.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button6.Name = "button6";
-         this.button6.Size = new System.Drawing.Size( 63, 50 );
-         this.button6.TabIndex = 24;
-         this.button6.Text = "6";
-         // 
-         // button7
-         // 
-         this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button7.Location = new System.Drawing.Point( 63, 80 );
-         this.button7.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button7.Name = "button7";
-         this.button7.Size = new System.Drawing.Size( 63, 50 );
-         this.button7.TabIndex = 23;
-         this.button7.Text = "5";
-         // 
-         // button8
-         // 
-         this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button8.Location = new System.Drawing.Point( 0, 80 );
-         this.button8.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button8.Name = "button8";
-         this.button8.Size = new System.Drawing.Size( 63, 50 );
-         this.button8.TabIndex = 22;
-         this.button8.Text = "4";
-         // 
-         // button4
-         // 
-         this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button4.Location = new System.Drawing.Point( 189, 30 );
-         this.button4.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button4.Name = "button4";
-         this.button4.Size = new System.Drawing.Size( 63, 50 );
-         this.button4.TabIndex = 21;
-         this.button4.Text = "/";
-         // 
-         // button3
-         // 
-         this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button3.Location = new System.Drawing.Point( 126, 30 );
-         this.button3.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button3.Name = "button3";
-         this.button3.Size = new System.Drawing.Size( 63, 50 );
-         this.button3.TabIndex = 20;
-         this.button3.Text = "9";
-         // 
-         // button2
-         // 
-         this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button2.Location = new System.Drawing.Point( 63, 30 );
-         this.button2.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button2.Name = "button2";
-         this.button2.Size = new System.Drawing.Size( 63, 50 );
-         this.button2.TabIndex = 19;
-         this.button2.Text = "8";
-         // 
-         // button1
-         // 
-         this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-         this.button1.Location = new System.Drawing.Point( 0, 30 );
-         this.button1.Margin = new System.Windows.Forms.Padding( 0 );
-         this.button1.Name = "button1";
-         this.button1.Size = new System.Drawing.Size( 63, 50 );
-         this.button1.TabIndex = 18;
-         this.button1.Text = "7";
-         // 
-         // textBox1
-         // 
-         this.textBox1.Location = new System.Drawing.Point( 0, 1 );
-         this.textBox1.Multiline = true;
-         this.textBox1.Name = "textBox1";
-         this.textBox1.Size = new System.Drawing.Size( 252, 26 );
-         this.textBox1.TabIndex = 17;
-         // 
-         // CalculatorGUIForm
-         // 
-         this.AutoScaleDimensions = new System.Drawing.SizeF( 7F, 15F );
-         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-         this.ClientSize = new System.Drawing.Size( 252, 230 );
-         this.Controls.Add( this.button13 );
-         this.Controls.Add( this.button14 );
-         this.Controls.Add( this.button15 );
-         this.Controls.Add( this.button16 );
-         this.Controls.Add( this.button9 );
-         this.Controls.Add( this.button10 );
-         this.Controls.Add( this.button11 );
-         this.Controls.Add( this.button12 );
-         this.Controls.Add( this.button5 );
-         this.Controls.Add( this.button6 );
-         this.Controls.Add( this.button7 );
-         this.Controls.Add( this.button8 );
-         this.Controls.Add( this.button4 );
-         this.Controls.Add( this.button3 );
-         this.Controls.Add( this.button2 );
-         this.Controls.Add( this.button1 );
-         this.Controls.Add( this.textBox1 );
-         this.Font = new System.Drawing.Font( "Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ( ( byte ) ( 0 ) ) );
-         this.Name = "CalculatorGUIForm";
-         this.Text = "Calculator GUI";
-         this.ResumeLayout( false );
-         this.PerformLayout();
+            this.exitBtn = new System.Windows.Forms.Button();
+            this.quotient = new System.Windows.Forms.Button();
+            this.reverseString = new System.Windows.Forms.Button();
+            this.noWhiteSpace = new System.Windows.Forms.Button();
+            this.minMax = new System.Windows.Forms.Button();
+            this.logX = new System.Windows.Forms.Button();
+            this.log10 = new System.Windows.Forms.Button();
+            this.sqRoot = new System.Windows.Forms.Button();
+            this.quad = new System.Windows.Forms.Button();
+            this.power = new System.Windows.Forms.Button();
+            this.input = new System.Windows.Forms.TextBox();
+            this.result = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // exitBtn
+            // 
+            this.exitBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.exitBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.exitBtn.Location = new System.Drawing.Point(0, 222);
+            this.exitBtn.Margin = new System.Windows.Forms.Padding(0);
+            this.exitBtn.Name = "exitBtn";
+            this.exitBtn.Size = new System.Drawing.Size(316, 50);
+            this.exitBtn.TabIndex = 32;
+            this.exitBtn.Text = "Exit";
+            this.exitBtn.UseVisualStyleBackColor = false;
+            this.exitBtn.Click += new System.EventHandler(this.exitBtn_Click);
+            // 
+            // quotient
+            // 
+            this.quotient.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.quotient.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.quotient.Location = new System.Drawing.Point(209, 172);
+            this.quotient.Margin = new System.Windows.Forms.Padding(0);
+            this.quotient.Name = "quotient";
+            this.quotient.Size = new System.Drawing.Size(107, 50);
+            this.quotient.TabIndex = 28;
+            this.quotient.Text = "Quotient";
+            this.quotient.UseVisualStyleBackColor = false;
+            this.quotient.Click += new System.EventHandler(this.quotient_Click);
+            // 
+            // reverseString
+            // 
+            this.reverseString.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.reverseString.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.reverseString.Location = new System.Drawing.Point(106, 172);
+            this.reverseString.Margin = new System.Windows.Forms.Padding(0);
+            this.reverseString.Name = "reverseString";
+            this.reverseString.Size = new System.Drawing.Size(103, 50);
+            this.reverseString.TabIndex = 27;
+            this.reverseString.Text = "Reverse String";
+            this.reverseString.UseVisualStyleBackColor = false;
+            this.reverseString.Click += new System.EventHandler(this.reverseString_Click);
+            // 
+            // noWhiteSpace
+            // 
+            this.noWhiteSpace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.noWhiteSpace.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.noWhiteSpace.Location = new System.Drawing.Point(0, 172);
+            this.noWhiteSpace.Margin = new System.Windows.Forms.Padding(0);
+            this.noWhiteSpace.Name = "noWhiteSpace";
+            this.noWhiteSpace.Size = new System.Drawing.Size(112, 50);
+            this.noWhiteSpace.TabIndex = 26;
+            this.noWhiteSpace.Text = "No Whitespace";
+            this.noWhiteSpace.UseVisualStyleBackColor = false;
+            this.noWhiteSpace.Click += new System.EventHandler(this.noWhiteSpace_Click);
+            // 
+            // minMax
+            // 
+            this.minMax.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.minMax.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.minMax.Location = new System.Drawing.Point(209, 122);
+            this.minMax.Margin = new System.Windows.Forms.Padding(0);
+            this.minMax.Name = "minMax";
+            this.minMax.Size = new System.Drawing.Size(107, 50);
+            this.minMax.TabIndex = 24;
+            this.minMax.Text = "Min and Max";
+            this.minMax.UseVisualStyleBackColor = false;
+            this.minMax.Click += new System.EventHandler(this.minMax_Click);
+            // 
+            // logX
+            // 
+            this.logX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.logX.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.logX.Location = new System.Drawing.Point(106, 122);
+            this.logX.Margin = new System.Windows.Forms.Padding(0);
+            this.logX.Name = "logX";
+            this.logX.Size = new System.Drawing.Size(103, 50);
+            this.logX.TabIndex = 23;
+            this.logX.Text = "Log base x";
+            this.logX.UseVisualStyleBackColor = false;
+            this.logX.Click += new System.EventHandler(this.logX_Click);
+            // 
+            // log10
+            // 
+            this.log10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.log10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.log10.Location = new System.Drawing.Point(0, 122);
+            this.log10.Margin = new System.Windows.Forms.Padding(0);
+            this.log10.Name = "log10";
+            this.log10.Size = new System.Drawing.Size(106, 50);
+            this.log10.TabIndex = 22;
+            this.log10.Text = "Log base 10";
+            this.log10.UseVisualStyleBackColor = false;
+            this.log10.Click += new System.EventHandler(this.log10_Click);
+            // 
+            // sqRoot
+            // 
+            this.sqRoot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.sqRoot.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.sqRoot.Location = new System.Drawing.Point(209, 72);
+            this.sqRoot.Margin = new System.Windows.Forms.Padding(0);
+            this.sqRoot.Name = "sqRoot";
+            this.sqRoot.Size = new System.Drawing.Size(107, 50);
+            this.sqRoot.TabIndex = 20;
+            this.sqRoot.Text = "Square Root";
+            this.sqRoot.UseVisualStyleBackColor = false;
+            this.sqRoot.Click += new System.EventHandler(this.sqRoot_Click);
+            // 
+            // quad
+            // 
+            this.quad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.quad.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.quad.Location = new System.Drawing.Point(106, 72);
+            this.quad.Margin = new System.Windows.Forms.Padding(0);
+            this.quad.Name = "quad";
+            this.quad.Size = new System.Drawing.Size(103, 50);
+            this.quad.TabIndex = 19;
+            this.quad.Text = "Quadratic Roots";
+            this.quad.UseVisualStyleBackColor = false;
+            this.quad.Click += new System.EventHandler(this.quad_Click);
+            // 
+            // power
+            // 
+            this.power.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.power.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.power.Location = new System.Drawing.Point(0, 72);
+            this.power.Margin = new System.Windows.Forms.Padding(0);
+            this.power.Name = "power";
+            this.power.Size = new System.Drawing.Size(106, 50);
+            this.power.TabIndex = 18;
+            this.power.Text = "Power";
+            this.power.UseVisualStyleBackColor = false;
+            this.power.Click += new System.EventHandler(this.power_Click);
+            // 
+            // input
+            // 
+            this.input.Location = new System.Drawing.Point(0, 19);
+            this.input.Multiline = true;
+            this.input.Name = "input";
+            this.input.Size = new System.Drawing.Size(169, 35);
+            this.input.TabIndex = 17;
+            // 
+            // result
+            // 
+            this.result.AutoSize = true;
+            this.result.Location = new System.Drawing.Point(191, 19);
+            this.result.Name = "result";
+            this.result.Size = new System.Drawing.Size(0, 20);
+            this.result.TabIndex = 33;
+            // 
+            // CalculatorGUIForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.ClientSize = new System.Drawing.Size(317, 270);
+            this.Controls.Add(this.result);
+            this.Controls.Add(this.exitBtn);
+            this.Controls.Add(this.quotient);
+            this.Controls.Add(this.reverseString);
+            this.Controls.Add(this.noWhiteSpace);
+            this.Controls.Add(this.minMax);
+            this.Controls.Add(this.logX);
+            this.Controls.Add(this.log10);
+            this.Controls.Add(this.sqRoot);
+            this.Controls.Add(this.quad);
+            this.Controls.Add(this.power);
+            this.Controls.Add(this.input);
+            this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Name = "CalculatorGUIForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Calculator GUI";
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
       }
 
       #endregion
-
-      private System.Windows.Forms.Button button13;
-      private System.Windows.Forms.Button button14;
-      private System.Windows.Forms.Button button15;
-      private System.Windows.Forms.Button button16;
-      private System.Windows.Forms.Button button9;
-      private System.Windows.Forms.Button button10;
-      private System.Windows.Forms.Button button11;
-      private System.Windows.Forms.Button button12;
-      private System.Windows.Forms.Button button5;
-      private System.Windows.Forms.Button button6;
-      private System.Windows.Forms.Button button7;
-      private System.Windows.Forms.Button button8;
-      private System.Windows.Forms.Button button4;
-      private System.Windows.Forms.Button button3;
-      private System.Windows.Forms.Button button2;
-      private System.Windows.Forms.Button button1;
-      private System.Windows.Forms.TextBox textBox1;
-   }
+      private System.Windows.Forms.Button exitBtn;
+      private System.Windows.Forms.Button quotient;
+      private System.Windows.Forms.Button reverseString;
+      private System.Windows.Forms.Button noWhiteSpace;
+      private System.Windows.Forms.Button minMax;
+      private System.Windows.Forms.Button logX;
+      private System.Windows.Forms.Button log10;
+      private System.Windows.Forms.Button sqRoot;
+      private System.Windows.Forms.Button quad;
+      private System.Windows.Forms.Button power;
+      private System.Windows.Forms.TextBox input;
+        private System.Windows.Forms.Label result;
+    }
 }
 
